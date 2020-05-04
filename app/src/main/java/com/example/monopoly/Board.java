@@ -161,7 +161,7 @@ public class Board  {
         {
             System.out.println(e);
         }
-        String path = Environment.getExternalStorageDirectory().getAbsolutePath()+"/Monopoly";
+        /*String path = Environment.getExternalStorageDirectory().getAbsolutePath()+"/Monopoly";
         File dir = new File(path);
         if(!dir.exists())
             dir.mkdir();
@@ -200,7 +200,7 @@ public class Board  {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.setDataAndType(Uri.fromFile(file),"application/pdf");
-        playActivity.startActivity(intent);
+        playActivity.startActivity(intent);*/
         /*start = new Start("Start");
         cities.put(start.getPosition(), start);
 
