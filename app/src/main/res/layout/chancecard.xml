@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="275dp"
+    android:id="@+id/cardlayout"
+    android:layout_gravity="center"
+    android:background="@drawable/popupbackground"
+    android:rotation="0">
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="185dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/question"
+        android:alpha="0.5"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangered"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="30sp"
+        android:text="CHANCE"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orangered"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="22sp"
+        android:text="Make General Repairs On All of your Buildings For Each House Pay $25 For Each Hotel Pay $100"
+        android:gravity="center"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"/>
+
+</RelativeLayout>

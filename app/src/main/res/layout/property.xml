@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativelayout"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/propcolor"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:background="@color/mediumblue"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/propertyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="FrenchurchSt. Station"
+        android:layout_toRightOf="@id/propcolor"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Price:$70"
+        android:layout_marginHorizontal="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@+id/mortgage"
+        android:layout_alignTop="@+id/mortgage"/>
+    <TextView
+        android:id="@+id/mortgage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Mortgage:$50"
+        android:layout_below="@+id/propertyname"
+        android:layout_toRightOf="@id/propcolor"
+        android:layout_marginTop="5dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/mortgage"/>
+
+
+</RelativeLayout>

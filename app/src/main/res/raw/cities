@@ -1,0 +1,40 @@
+monopoly.Start,0,Start,0
+monopoly.Property,1,OldKent Road,-7650029,60,2,30,10,30,90,250
+monopoly.CommunityChest,2,Community Chest1,0
+monopoly.Property,3,WhiteChapel Road,-7650029,60,4,30,20,60,180,320
+monopoly.Others,4,Income Tax,0,200
+monopoly.Station,5,KingsCross Station,0,200,25,100,50,100,200,0
+monopoly.Property,6,TheAngel Islington,-16711681,100,6,50,30,90,270,550
+monopoly.Chance,7,Chance 1,0
+monopoly.Property,8,Euston Road,-16711681,100,6,50,30,90,270,550
+monopoly.Property,9,PentonVille Road,-16711681,120,8,60,40,100,300,600
+monopoly.Jail,10,Jail,0
+monopoly.Property,11,Pall Mall,-65281,140,10,70,50,150,450,750
+monopoly.Utilities,12,Electric Company,0,150,0,75,0,0,0,0
+monopoly.Property,13,White Hall,-65281,140,10,70,50,150,450,750
+monopoly.Property,14,Northumberl'd Avenue,-65281,160,12,80,60,180,500,900
+monopoly.Station,15,MaryleBone Station,0,200,25,100,50,100,200,0
+monopoly.Property,16,Bow Street,-29696,180,14,90,70,200,550,950
+monopoly.CommunityChest,17,Community Chest2,0
+monopoly.Property,18,Marlborough Street,-29696,180,14,90,70,200,550,950
+monopoly.Property,19,Vine Street,-29696,200,16,100,80,220,600,1000
+monopoly.Others,20,Free Parking,0,0
+monopoly.Property,21,Strand,-65536,220,18,110,90,250,700,1050
+monopoly.Chance,22,Chance 2,0
+monopoly.Property,23,Fleet Street,-65536,220,18,110,90,250,700,1050
+monopoly.Property,24,Trafalgar Square,-65536,240,20,120,100,300,750,1100
+monopoly.Station,25,FrenchurchSt. Station,0,200,25,100,50,100,200,0
+monopoly.Property,26,Leicester Square,-256,260,22,130,110,330,800,1150
+monopoly.Property,27,Conventry Street,-256,260,22,130,110,330,800,1150
+monopoly.Utilities,28,Water Works,0,150,0,75,0,0,0,0
+monopoly.Property,29,Piccadilly,-256,280,24,140,120,360,850,1200
+monopoly.Others,30,Go to Jail,0,0
+monopoly.Property,31,Regent Street,-16500441,300,26,150,130,390,900,1275
+monopoly.Property,32,Oxford Street,-16500441,300,26,150,130,390,900,1275
+monopoly.CommunityChest,33,Community Chest 3,0
+monopoly.Property,34,Bond Street,-16500441,320,28,160,150,450,1000,1400
+monopoly.Station,35,LiverpoolSt. Station,0,200,25,100,50,100,200,0
+monopoly.Chance,36,Chance 3,0
+monopoly.Property,37,Park Lane,-16776961,350,35,175,175,500,1100,1500
+monopoly.Others,38,Super Tax,0,100
+monopoly.Property,39,Mayfair,-16776961,400,50,200,200,600,1400,2000

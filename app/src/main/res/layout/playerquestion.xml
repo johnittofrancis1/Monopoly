@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/whitetexture"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="25dp"
+        android:fontFamily="@font/monopolybold"
+        android:text="Do you Want to buy Trafalgar Square for $220?"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_alignLeft="@+id/message"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/monopolybold"
+        android:text="Ok"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_alignRight="@+id/message"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/monopolybold"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+</RelativeLayout>

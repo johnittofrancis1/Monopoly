@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:id="@+id/titledeed"
+    android:background="@drawable/propertyownerbackground">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/faucet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="WATER WORKS"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/rent1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="13sp"
+        android:text="If one 'Utility' is owned,\nrent is 4 times amount\nshown on dice"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/rent2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textSize="13sp"
+        android:text="If two 'Utility' is owned,\nrent is 10 times amount\nshown on dice"
+        android:gravity="center"
+        android:layout_below="@+id/rent1text"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/mortgage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monopolybold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="Mortgage Value - $100"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rent2text"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
